@@ -82,6 +82,9 @@ Run notebook -> train model.ipynb
 
 
 ## 📊 Results & Demo
+![1](https://github.com/user-attachments/assets/3870cc0c-12ec-4199-940e-c12158a9598c)
+![2](https://github.com/user-attachments/assets/a6894520-46c5-4f58-bed9-d1e12a29c8f7)
+![3](https://github.com/user-attachments/assets/9d5e99bd-5dc7-426b-a4af-268ca03457b2)
 
 
 ## 🙏 Credits
