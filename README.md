@@ -20,6 +20,7 @@ Play Rock-Paper-Scissors against your computer using only your hand gestures in 
 - Webcam integration for live predictions
 - Simple code base: easy to extend or retrain
 - Clear visualization with bounding boxes and labels
+- Along with a source code for playing with the robot
 
 ---
 
@@ -46,6 +47,7 @@ root/
 ├── live_detection.py       # Main script to run live detection
 ├── train model.ipynb       # Notebook to (re-)train model (if needed)
 ├── best.pt                 # Pretrained YOLO weights (.pt)
+├── Play_against_robot.py   # Source code for the game against the robot
 
 ```
 
@@ -86,6 +88,22 @@ Run notebook -> train model.ipynb
 ![2](https://github.com/user-attachments/assets/a6894520-46c5-4f58-bed9-d1e12a29c8f7)
 ![3](https://github.com/user-attachments/assets/9d5e99bd-5dc7-426b-a4af-268ca03457b2)
 
+## 🎮 Run the Game
+
+With your hand, show rock, paper, or scissors so that the program can recognize it.
+Then, the robot's choice is checked and the winner of the round is determined. 
+The round description is displayed at the bottom of the screen and the scores are displayed at the top of the screen.
+
+- Execute the Python script:
+```bash
+python Play_against_robot.py
+```
+
+- Game Controls:
+  - q: Exit the program.
+  - r: Reset the scores and start a new game.
+  - n: Proceed to the next round (after the current round’s result is displayed).
+ 
 
 ## 🙏 Credits
 ```
